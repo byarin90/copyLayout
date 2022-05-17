@@ -1,0 +1,507 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1300px;
+    min-height: inherit;
+}
+
+.logo {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 40px;
+}
+
+header nav a {
+    color: rgb(94, 94, 94);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.strip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/cover.jpg);
+    background-size: cover;
+    background-position: top center;
+    min-height: 300px;
+    padding: 8px;
+}
+
+.strip>h1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    justify-content: end;
+    padding: 1% 7%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section .sec1 p {
+    padding: 0 25%;
+    color: rgb(148, 148, 148);
+    line-height: 1.5em;
+}
+
+section .sec1 h2 {
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+
+main .sec1 {
+    min-height: 300px;
+    padding-bottom: 4%;
+}
+
+main> {
+    background: #c4c4c4;
+}
+
+main section .sec2 {
+    padding-top: 2%;
+}
+
+.sec2 div h2 {
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+.sec2 {
+    min-height: 300px;
+    text-align: center;
+}
+
+.sec2 {
+    background: rgb(226, 226, 226);
+}
+
+.sec2 div {
+    padding: 8px;
+}
+
+.team {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sec2 .team .box {
+    width: 25%;
+    min-height: 300px;
+    line-height: 1.2em;
+    font-size: 0.9em;
+}
+
+.sec2 .team .box div {
+    min-height: 50%;
+}
+
+.sec2 .team .box p {
+    font-weight: lighter;
+    color: rgb(97, 97, 97);
+}
+
+main .join {
+    height: 305px;
+    background-image: url(img/cover2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.join .container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(148, 148, 148);
+    line-height: 1.5em;
+}
+
+.white {
+    color: rgb(201, 200, 200);
+}
+
+.join .container h4 {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.join .container p {
+    padding: 0 25.5%;
+}
+
+.join .container button {
+    cursor: pointer;
+    margin-top: 1%;
+    padding: 13px 45px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    background: #0497D1;
+}
+
+.pack {
+    min-height: 800px;
+    background: rgb(246, 246, 246);
+    padding: 7% 14% 0 14%;
+}
+
+.pack .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pack .container .pack-box {
+    height: 300px;
+    width: 43%;
+}
+
+.pack .container .pack-box p {
+    color: rgb(148, 148, 148);
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+.pack .container .pack-box h3,
+h4 {
+    font-size: 1.8em;
+    line-height: 1.3em;
+    font-weight: lighter;
+}
+
+.pack .container .pack-box:nth-of-type(1) {
+    background-image: url(img/refelct.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.pack .container .pack-box:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pack .container .pack-box:nth-of-type(2) h3 {
+    margin: 0;
+}
+
+.pack .container .pack-box:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pack .container .pack-box:nth-of-type(3) h4 {
+    color: rgb(77, 77, 77);
+    font-weight: lighter;
+    margin: 0;
+}
+
+.pack .container .pack-box:nth-of-type(4) {
+    background-image: url(img/refelct.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.contact {
+    min-height: 150px;
+    background: #1499ce;
+}
+
+.contact .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+    font-size: 1.2em;
+}
+
+.contact .container {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+    font-size: 1em;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contact .container button {
+    text-transform: uppercase;
+    padding: 14px 30px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 6px;
+    font-weight: bolder;
+    color: #1499ce;
+    cursor: pointer;
+}
+
+footer {
+    padding: 85px 0 170px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    line-height: 2.5em;
+}
+
+footer .container table,
+th,
+td {
+    text-align: left;
+}
+
+footer .container table tr td,
+th {
+    padding: 0 50px;
+    font-size: 0.8em;
+}
+
+footer .container table tr td {
+    color: rgb(100, 99, 99);
+}
+
+footer .container table tr,
+th {
+    text-transform: uppercase;
+}
+
+footer .container .social-box table tr:nth-of-type(3) td {
+    padding: 8% 0 0 15%;
+}
+
+footer .container .social {
+    display: flex;
+    padding-top: 20px;
+}
+
+footer .container .social .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border: rgb(100, 99, 99) 2px solid;
+    border-radius: 50%;
+    color: rgb(100, 99, 99);
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .sec2 .team .box {
+        width: 22%;
+        text-align: center;
+        font-size: 0.8em;
+    }
+    .sec2 .team .box img {
+        width: 85%;
+    }
+    .sec2 .team .box p {
+        font-size: 0.5;
+        font-weight: lighter;
+        color: rgb(97, 97, 97);
+    }
+    .strip {
+        min-height: 250px;
+        padding: 2px;
+    }
+    main div section .sec1 {
+        min-height: 200px;
+        padding-bottom: 4%;
+    }
+    main div section .sec1 h2 {
+        font-size: 1.6em;
+    }
+    main .sec2 h2 {
+        font-size: 2.5em;
+    }
+    .join .container h4 {
+        font-size: 1.7em;
+        font-weight: lighter;
+    }
+    .pack {
+        padding: 15% 10% 0 10%;
+    }
+    .pack .container .pack-box {
+        height: 250px;
+        width: 45%;
+    }
+    .pack .container .pack-box h3,
+    h4 {
+        font-size: 1.37em;
+        line-height: 1.3em;
+    }
+    footer .container>div:nth-of-type(1) {
+        display: none;
+    }
+    footer .container table,
+    th,
+    td {
+        text-align: center;
+    }
+    footer .container .social-box table tr:nth-of-type(3) td {
+        padding: 0;
+    }
+    footer {
+        padding: 5% 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        display: none;
+    }
+    .strip>h1 {
+        font-size: 2em;
+    }
+    .strip {
+        min-height: 100px;
+        padding: 2px;
+    }
+    .sec2 .team .box {
+        width: 50%;
+        text-align: center;
+        font-size: 0.8em;
+    }
+    .sec2 .team .box img {
+        width: 80%;
+    }
+    .sec2 .team .box p {
+        font-size: 0.5;
+        font-weight: lighter;
+        color: rgb(97, 97, 97);
+    }
+    section .sec1 p {
+        padding: 20px;
+    }
+    .icons {
+        display: none;
+    }
+    main div section .sec1 {
+        min-height: 200px;
+        padding-bottom: 4%;
+    }
+    main div section .sec1 h2 {
+        font-size: 1.6em;
+    }
+    main .sec2 h2 {
+        font-size: 1.6em;
+    }
+    .join .container button {
+        cursor: pointer;
+        margin: 0;
+        padding: 10px 45px;
+    }
+    .join .container h4 {
+        font-size: 1.3em;
+        padding: 10px;
+        font-weight: lighter;
+    }
+    .join .container p {
+        line-height: 1.4;
+        font-size: 1em;
+        padding: 0 10%;
+    }
+    .pack {
+        padding-bottom: 30%;
+    }
+    .pack .container .pack-box {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 15%;
+        text-align: center;
+    }
+    .pack .container .pack-box:nth-of-type(1) {
+        order: -1;
+    }
+    .pack .container .pack-box:nth-of-type(2) {
+        order: 0;
+    }
+    .pack .container .pack-box:nth-of-type(2) h3 {
+        font-size: 1.8em;
+    }
+    .pack .container .pack-box:nth-of-type(3) {
+        order: 2;
+    }
+    .pack .container .pack-box:nth-of-type(3) h4 {
+        padding-top: 35%;
+        font-size: 1.8em;
+    }
+    .pack .container .pack-box:nth-of-type(4) {
+        order: 1;
+    }
+    .contact {
+        padding: 10%;
+    }
+    .contact .container {
+        text-align: center;
+        flex-direction: column;
+    }
+    footer .container>div:nth-of-type(1) {
+        display: none;
+    }
+    footer .container table,
+    th,
+    td {
+        text-align: center;
+    }
+    footer .container .social-box table tr:nth-of-type(3) td {
+        padding: 0;
+    }
+    footer {
+        padding: 10% 0;
+    }
+    .logo {
+        display: block;
+        cursor: pointer;
+    }
+    .logo img {
+        border-radius: 5px;
+        margin-right: 20px;
+    }
+    .strip {
+        justify-content: end;
+    }
+    .strip h1 {
+        display: none;
+    }
+}
